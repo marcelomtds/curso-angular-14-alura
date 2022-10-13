@@ -1,0 +1,22 @@
+{
+  "pensamentos": [
+    {
+      "id": 2,
+      "conteudo": "Estudando Angular 23",
+      "autoria": "Dev Alura 23",
+      "modelo": "modelo1"
+    },
+    {
+      "id": 3,
+      "conteudo": "Angular é o melhor",
+      "autoria": "Nay",
+      "modelo": "modelo3"
+    },
+    {
+      "conteudo": "Pensamento",
+      "autoria": "Autoria",
+      "modelo": "modelo1",
+      "id": 4
+    }
+  ]
+}
