@@ -10,12 +10,7 @@ import { Pensamento } from '../pensamento';
 })
 export class ExcluirPensamentoComponent implements OnInit {
   
-  pensamento: Pensamento = {
-    id: 0,
-    conteudo: '',
-    autoria: '',
-    modelo: '',
-  };
+  pensamento!: Pensamento;
 
   constructor(
     private service: PensamentoService,
@@ -30,7 +25,7 @@ export class ExcluirPensamentoComponent implements OnInit {
     });
   }
 
-  excluirPensamento() {
+  excluirPensamento(): void {
     if (this.pensamento.id) {
       this.service.excluir(this.pensamento.id).subscribe(() => {
         this.router.navigate(['/listarPensamento']);
@@ -38,7 +33,7 @@ export class ExcluirPensamentoComponent implements OnInit {
     }
   }
 
-  cancelar() {
+  cancelar(): void {
     this.router.navigate(['/listarPensamento']);
   }
 }

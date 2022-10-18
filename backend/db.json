@@ -1,22 +1,39 @@
 {
   "pensamentos": [
     {
-      "id": 2,
-      "conteudo": "Estudando Angular 23",
-      "autoria": "Dev Alura 23",
-      "modelo": "modelo1"
-    },
-    {
-      "id": 3,
-      "conteudo": "Angular é o melhor",
-      "autoria": "Nay",
-      "modelo": "modelo3"
-    },
-    {
       "conteudo": "Pensamento",
       "autoria": "Autoria",
       "modelo": "modelo1",
-      "id": 4
+      "id": 4,
+      "favorito": false
+    },
+    {
+      "conteudo": "qweqwe",
+      "autoria": "qweqwe",
+      "modelo": "modelo1",
+      "id": 5,
+      "favorito": false
+    },
+    {
+      "conteudo": "qweq",
+      "autoria": "fewewfw",
+      "modelo": "modelo1",
+      "id": 6,
+      "favorito": false
+    },
+    {
+      "conteudo": "wefwef",
+      "autoria": "wefwef",
+      "modelo": "modelo1",
+      "id": 7,
+      "favorito": false
+    },
+    {
+      "conteudo": "ultimo",
+      "autoria": "sfdfsdfsdfsdf",
+      "modelo": "modelo3",
+      "id": 8,
+      "favorito": true
     }
   ]
 }

@@ -1,6 +1,6 @@
 import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -12,6 +12,7 @@ import { PensamentoComponent } from './componentes/pensamentos/pensamento/pensam
 import { RodapeComponent } from './componentes/rodape/rodape.component';
 import { ExcluirPensamentoComponent } from './componentes/pensamentos/excluir-pensamento/excluir-pensamento.component';
 import { EditarPensamentoComponent } from './componentes/pensamentos/editar-pensamento/editar-pensamento.component';
+import { BotaoCarregarMaisComponent } from './componentes/pensamentos/listar-pensamento/botao-carregar-mais/botao-carregar-mais.component';
 
 @NgModule({
   declarations: [
@@ -24,12 +25,14 @@ import { EditarPensamentoComponent } from './componentes/pensamentos/editar-pens
     ListarPensamentoComponent,
     ExcluirPensamentoComponent,
     EditarPensamentoComponent,
+    BotaoCarregarMaisComponent,
   ],
   imports: [
-    BrowserModule, 
-    AppRoutingModule, 
-    FormsModule, 
-    HttpClientModule
+    BrowserModule,
+    AppRoutingModule,
+    FormsModule,
+    ReactiveFormsModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
